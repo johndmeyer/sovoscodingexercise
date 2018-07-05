@@ -1,0 +1,9 @@
+Vision / Use Case
+
+For this exercise I will build the recipe application towards a use case where multiple users (e.g. brew masters at different breweries) would like to create and share their recipes.
+
+Architecture
+
+The back end application will be a C# .Net 4.0+ application and will will utilize SQL Server to store the recipe data. The application will deliver the recipe data via RESTful Web API 2.0 APIs. The application may implement Dapper as an ORM technology. The restful API will allow for any other technology to be used on the front end. 
+
+The application will be built using the n tier architecture with a separate project for each tier within the solution. This will help to separate the concerns and facilitate unit testing. 
