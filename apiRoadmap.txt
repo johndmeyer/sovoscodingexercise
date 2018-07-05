@@ -1,0 +1,15 @@
+APIs:
+	CreateIngreditent
+	RetrieveIngredient
+	RetrieveIngredients (for dropdown)
+	UpdateIngretient
+	DeleteIngredient
+	
+	RetrieveUnits (for dropdown)
+	
+	CreateRecipie
+	RetrieveRecipie
+	UpdateRecipie
+	DeleteRecipie
+	
+	RetrieveUser

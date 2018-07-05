@@ -1,0 +1,26 @@
+Database Schema:
+	
+*Recipie -Core Table
+	*PK
+	*FK (User PK)
+	*Name
+	*Description
+	*Photo
+	*Directions
+	
+*RecipieIngreditents
+	*FK (Recipie PK)
+	*FK (Ingredient PK)
+	*FK (Unit PK)
+	
+*User -Lookup Table
+	*PK	
+	*UserName
+	
+*Ingredients -Lookup Table
+	*Name
+	*Description
+	
+*Units (mg, g, kg) -Lookup Table
+	*Unit
+	*Multiplier
