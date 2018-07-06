@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{07A955C4-2FA1-493F-9A99-B5BA3165B510}</ProjectGuid>
+    <ProjectGuid>{DBE4A1D7-8057-445B-BF93-32183CA40755}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SovosCodingExercise.Tests</RootNamespace>
-    <AssemblyName>SovosCodingExercise.Tests</AssemblyName>
+    <RootNamespace>SovosCodingExercise.Api.Tests</RootNamespace>
+    <AssemblyName>SovosCodingExercise.Api.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -101,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SovosCodingExercise.Api\SovosCodingExercise.Api.csproj">
+      <Project>{3C839465-51AD-49C2-8FEA-A5B87A6BA975}</Project>
+      <Name>SovosCodingExercise.Api</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

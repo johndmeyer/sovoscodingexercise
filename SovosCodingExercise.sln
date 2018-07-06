@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "SovosCodingExercise\Api.csproj", "{3EB807B8-293A-4F08-BD20-7384368EF185}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.DataAccess", "SovosCodingExercise.DataAccess\SovosCodingExercise.DataAccess.csproj", "{5CF91B52-576D-4383-A9ED-7200A9BAE716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.Tests", "SovosCodingExercise.Tests\SovosCodingExercise.Tests.csproj", "{07A955C4-2FA1-493F-9A99-B5BA3165B510}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.Api", "SovosCodingExercise.Api\SovosCodingExercise.Api.csproj", "{3C839465-51AD-49C2-8FEA-A5B87A6BA975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{84E40820-E910-4E26-81B8-BFA83A21083C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.Api.Tests", "SovosCodingExercise.Api.Tests\SovosCodingExercise.Api.Tests.csproj", "{DBE4A1D7-8057-445B-BF93-32183CA40755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.BusinessLogic.Tests", "SovosCodingExercise.BusinessLogic.Tests\SovosCodingExercise.BusinessLogic.Tests.csproj", "{1363ABB5-FBFB-470F-A773-56002658D0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.DataAccess.Tests", "SovosCodingExercise.DataAccess.Tests\SovosCodingExercise.DataAccess.Tests.csproj", "{4EFF3ADD-2FEA-4E88-8BC3-9765C7092D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.BusinessLogic", "SovosCodingExercise.BusinessLogic\SovosCodingExercise.BusinessLogic.csproj", "{486BF630-E554-4B45-B02F-24320248CC42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.DataModels", "SovosCodingExercise.DataModels\SovosCodingExercise.DataModels.csproj", "{7DAF3495-CB33-4D7B-8F18-4EA5DB1CD035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +21,34 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3EB807B8-293A-4F08-BD20-7384368EF185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EB807B8-293A-4F08-BD20-7384368EF185}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EB807B8-293A-4F08-BD20-7384368EF185}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EB807B8-293A-4F08-BD20-7384368EF185}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84E40820-E910-4E26-81B8-BFA83A21083C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84E40820-E910-4E26-81B8-BFA83A21083C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84E40820-E910-4E26-81B8-BFA83A21083C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84E40820-E910-4E26-81B8-BFA83A21083C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF91B52-576D-4383-A9ED-7200A9BAE716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF91B52-576D-4383-A9ED-7200A9BAE716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF91B52-576D-4383-A9ED-7200A9BAE716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF91B52-576D-4383-A9ED-7200A9BAE716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C839465-51AD-49C2-8FEA-A5B87A6BA975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C839465-51AD-49C2-8FEA-A5B87A6BA975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C839465-51AD-49C2-8FEA-A5B87A6BA975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C839465-51AD-49C2-8FEA-A5B87A6BA975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE4A1D7-8057-445B-BF93-32183CA40755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE4A1D7-8057-445B-BF93-32183CA40755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE4A1D7-8057-445B-BF93-32183CA40755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE4A1D7-8057-445B-BF93-32183CA40755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1363ABB5-FBFB-470F-A773-56002658D0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1363ABB5-FBFB-470F-A773-56002658D0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1363ABB5-FBFB-470F-A773-56002658D0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1363ABB5-FBFB-470F-A773-56002658D0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFF3ADD-2FEA-4E88-8BC3-9765C7092D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFF3ADD-2FEA-4E88-8BC3-9765C7092D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFF3ADD-2FEA-4E88-8BC3-9765C7092D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFF3ADD-2FEA-4E88-8BC3-9765C7092D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486BF630-E554-4B45-B02F-24320248CC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486BF630-E554-4B45-B02F-24320248CC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486BF630-E554-4B45-B02F-24320248CC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486BF630-E554-4B45-B02F-24320248CC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAF3495-CB33-4D7B-8F18-4EA5DB1CD035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAF3495-CB33-4D7B-8F18-4EA5DB1CD035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAF3495-CB33-4D7B-8F18-4EA5DB1CD035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAF3495-CB33-4D7B-8F18-4EA5DB1CD035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
