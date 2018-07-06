@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "SovosCodingExercise\Api.csproj", "{3EB807B8-293A-4F08-BD20-7384368EF185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SovosCodingExercise.Tests", "SovosCodingExercise.Tests\SovosCodingExercise.Tests.csproj", "{07A955C4-2FA1-493F-9A99-B5BA3165B510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{84E40820-E910-4E26-81B8-BFA83A21083C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB807B8-293A-4F08-BD20-7384368EF185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB807B8-293A-4F08-BD20-7384368EF185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB807B8-293A-4F08-BD20-7384368EF185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB807B8-293A-4F08-BD20-7384368EF185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A955C4-2FA1-493F-9A99-B5BA3165B510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E40820-E910-4E26-81B8-BFA83A21083C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E40820-E910-4E26-81B8-BFA83A21083C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E40820-E910-4E26-81B8-BFA83A21083C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E40820-E910-4E26-81B8-BFA83A21083C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3B7800-5CF1-4DC2-A16C-C355274D0ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
