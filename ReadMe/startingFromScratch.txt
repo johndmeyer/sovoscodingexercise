@@ -1,0 +1,20 @@
+Starting from scratch...
+
+
+* Working with a 13" macbook pro so needed to set up dev environment.
+
+* Installed virtual box
+  
+* Created Win 7 x86 dev box
+  
+* Installed software
+
+	* Google chrome
+
+	* Microsoft Security Essentials
+
+	* 7zip
+	* cmder
+	* Git Kraken
+	* VS 2012 -These are versions I have/can get license for
+	* Sql Server 2012 -These are versions I have/can get license for
