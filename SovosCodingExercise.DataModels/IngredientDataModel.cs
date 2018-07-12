@@ -8,10 +8,10 @@ namespace SovosCodingExercise.DataModels
 {
     public class IngredientDataModel : BaseDataModel
     {
-        public int IngredientId { get; set; }
+        public int Ingredient_Id { get; set; }
 
-        public string IngredientName { get; set; }
+        public string Ingredient_Name { get; set; }
 
-        public string IngredientDescription { get; set; }
+        public string Ingredient_Description { get; set; }
     }
 }

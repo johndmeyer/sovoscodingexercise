@@ -1,35 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SovosCodingExercise.DataModels;
-using System.Data;
+using Dapper;
 
 namespace SovosCodingExercise.DataAccess
 {
-    public class IngredientData
+    public class IngredientData :  BaseDataAccess, IIngredientData
     {
         public IEnumerable<IngredientDataModel> RetrieveIngredients()
         {
-            return new List<IngredientDataModel>();
+            var result = new List<IngredientDataModel>();
 
+            string sqlOrderDetails = "SELECT * FROM Ingredients;";
 
-            string sqlOrderDetails = "SELECT TOP 5 * FROM OrderDetails;";
-
-            using (var connection = new System.Data.SqlClient.SqlConnection("Data Source=SqlCe_W3Schools.sdf"))
+            using (var connection = new System.Data.SqlClient.SqlConnection(_connectionString))
             {
-                var foo = connection.Query
-                //var orderDetails = connection.Query<OrderDetail>(sqlOrderDetails).ToList();
-                //var orderDetail = connection.QueryFirstOrDefault<OrderDetail>(sqlOrderDetail, new { OrderDetailID = 1 });
-                //var affectedRows = connection.Execute(sqlCustomerInsert, new { CustomerName = "Mark" });
+                connection.Open();
 
-                //Console.WriteLine(orderDetails.Count);
-                //Console.WriteLine(affectedRows);
-
-                //FiddleHelper.WriteTable(orderDetails);
-                //FiddleHelper.WriteTable(new List<OrderDetail>() { orderDetail });
+                result = connection.Query<IngredientDataModel>(sqlOrderDetails).ToList();
             }
+
+            return result;
         }
     }
 }

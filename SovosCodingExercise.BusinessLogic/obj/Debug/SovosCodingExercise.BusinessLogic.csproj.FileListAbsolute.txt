@@ -1,0 +1,7 @@
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.BusinessLogic.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.BusinessLogic.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.DataModels.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.DataModels.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.pdb

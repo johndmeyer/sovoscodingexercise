@@ -1,0 +1,11 @@
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataAccess.Tests.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataAccess.Tests.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\obj\Debug\SovosCodingExercise.DataAccess.Tests.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\obj\Debug\SovosCodingExercise.DataAccess.Tests.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataAccess.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataModels.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataAccess.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\bin\Debug\SovosCodingExercise.DataModels.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess.Tests\obj\Debug\SovosCodingExercise.DataAccess.Tests.csprojResolveAssemblyReference.cache
