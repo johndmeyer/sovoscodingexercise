@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Configuration;
 using System.Linq;
 using SovosCodingExercise.DataModels;
-using Dapper;
 
 namespace SovosCodingExercise.DataAccess
 {
@@ -10,18 +8,9 @@ namespace SovosCodingExercise.DataAccess
     {
         public IEnumerable<IngredientDataModel> RetrieveIngredients()
         {
-            var result = new List<IngredientDataModel>();
+            string query = "SELECT * FROM Ingredients;";
 
-            string sqlOrderDetails = "SELECT * FROM Ingredients;";
-
-            using (var connection = new System.Data.SqlClient.SqlConnection(_connectionString))
-            {
-                connection.Open();
-
-                result = connection.Query<IngredientDataModel>(sqlOrderDetails).ToList();
-            }
-
-            return result;
+            return ExecuteQueryReturnEnumerable<IngredientDataModel>(query).ToList(); ;
         }
     }
 }

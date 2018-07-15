@@ -5,3 +5,5 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Busin
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.dll
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\obj\Debug\SovosCodingExercise.BusinessLogic.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.DataAccess.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic\bin\Debug\SovosCodingExercise.DataAccess.pdb

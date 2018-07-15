@@ -12,21 +12,31 @@ namespace SovosCodingExercise.Api.Controllers
     /// <summary>
     /// Need comments here
     /// </summary>
-    public class IngredientController : ApiController
+    public class IngredientsController : ApiController
     {
         private readonly IngredientLogic _ingredientLogic = null;
 
         /// <summary>
         /// Comments here
         /// </summary>
-        public IngredientController()
+        public IngredientsController()
         {
             _ingredientLogic = new IngredientLogic();
         }
 
-        // GET api/values
         /// <summary>
-        /// Comments here
+        /// Ingredient controller constructor - for use with ioc
+        /// </summary>
+        /// <param name="ingredientLogic"></param>
+        public IngredientsController(IngredientLogic ingredientLogic)
+        {
+            _ingredientLogic = ingredientLogic;
+        }
+
+        // TODO: Authentication
+
+        /// <summary>
+        /// Returns a list of all available ingredients (for dropdown)
         /// </summary>
         /// <returns></returns>
         public IEnumerable<IngredientDataModel> Get()
@@ -59,10 +69,24 @@ namespace SovosCodingExercise.Api.Controllers
         //{
         //}
 
-        //// PUT api/values/5
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
+        public BaseDataModel Put(string ingredientName id, [FromBody]string value)
+        {
+            // Error Handling
+            try
+            {
+                // Validate Inputs
+
+                // Call Business Logic to get data
+                return _ingredientLogic.RetrieveIngredients();
+            }
+            catch
+            {
+                // Log Error
+
+                // Return Error
+                return new List<IngredientDataModel> { new IngredientDataModel { ErrorMessage = "Error occured" } };
+            }
+        }
 
         //// DELETE api/values/5
         //public void Delete(int id)

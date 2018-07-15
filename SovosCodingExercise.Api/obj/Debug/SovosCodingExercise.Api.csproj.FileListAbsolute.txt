@@ -35,3 +35,5 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\b
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\obj\Debug\SovosCodingExercise.Api.csprojResolveAssemblyReference.cache
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\obj\Debug\SovosCodingExercise.Api.dll
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\obj\Debug\SovosCodingExercise.Api.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\bin\SovosCodingExercise.DataAccess.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api\bin\SovosCodingExercise.DataAccess.pdb

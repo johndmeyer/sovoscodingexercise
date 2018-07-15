@@ -36,3 +36,5 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.T
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.Tests\bin\Debug\SovosCodingExercise.DataModels.pdb
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.Tests\obj\Debug\SovosCodingExercise.Api.Tests.dll
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.Tests\obj\Debug\SovosCodingExercise.Api.Tests.pdb
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.Tests\bin\Debug\SovosCodingExercise.DataAccess.dll
+C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Api.Tests\bin\Debug\SovosCodingExercise.DataAccess.pdb

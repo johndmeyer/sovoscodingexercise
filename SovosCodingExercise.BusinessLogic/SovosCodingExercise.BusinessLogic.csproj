@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SovosCodingExercise.DataAccess\SovosCodingExercise.DataAccess.csproj">
+      <Project>{5cf91b52-576d-4383-a9ed-7200a9bae716}</Project>
+      <Name>SovosCodingExercise.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SovosCodingExercise.DataModels\SovosCodingExercise.DataModels.csproj">
       <Project>{7daf3495-cb33-4d7b-8f18-4ea5db1cd035}</Project>
       <Name>SovosCodingExercise.DataModels</Name>
