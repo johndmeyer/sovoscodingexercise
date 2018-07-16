@@ -6,15 +6,19 @@ Starting from scratch...
 * Installed virtual box
   
 * Created Win 7 x86 dev box
+	* SP1
+	* IIS
   
-* Installed software
-
-	* Google chrome
-
-	* Microsoft Security Essentials
-
+* Installed Software
 	* 7zip
+	* Chromium
+		* Last Pass
+	* GitKraken
+	* Sublime Text 3
+	* Microsoft Security Essentials	
 	* cmder
-	* Git Kraken
-	* VS 2012 -These are versions I have/can get license for
+	
+	* VS 2015 U3
 	* Sql Server 2012 -These are versions I have/can get license for
+
+* Removed excess Windows features

@@ -6,3 +6,10 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataA
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\obj\Debug\SovosCodingExercise.DataAccess.pdb
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\obj\Debug\SovosCodingExercise.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\bin\Debug\SovosCodingExercise.DataAccess.dll.config
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\bin\Debug\SovosCodingExercise.DataAccess.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\bin\Debug\SovosCodingExercise.DataAccess.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\bin\Debug\SovosCodingExercise.DataModels.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\bin\Debug\SovosCodingExercise.DataModels.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\obj\Debug\SovosCodingExercise.DataAccess.csprojResolveAssemblyReference.cache
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\obj\Debug\SovosCodingExercise.DataAccess.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataAccess\obj\Debug\SovosCodingExercise.DataAccess.pdb

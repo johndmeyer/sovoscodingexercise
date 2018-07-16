@@ -36,5 +36,15 @@ namespace SovosCodingExercise.DataAccess
 
             return result;
         }
+
+        protected void ExecuteQuery(string query)
+        {
+            using (var connection = new System.Data.SqlClient.SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                connection.Query(query).FirstOrDefault();
+            }
+        }
     }
 }

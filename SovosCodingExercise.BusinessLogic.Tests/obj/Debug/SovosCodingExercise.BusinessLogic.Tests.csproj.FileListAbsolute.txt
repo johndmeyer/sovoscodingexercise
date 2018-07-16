@@ -4,3 +4,10 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.Busin
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\obj\Debug\SovosCodingExercise.BusinessLogic.Tests.dll
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\obj\Debug\SovosCodingExercise.BusinessLogic.Tests.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\bin\Debug\SovosCodingExercise.BusinessLogic.Tests.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\bin\Debug\SovosCodingExercise.BusinessLogic.Tests.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\obj\Debug\SovosCodingExercise.BusinessLogic.Tests.csprojResolveAssemblyReference.cache
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\obj\Debug\SovosCodingExercise.BusinessLogic.Tests.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.BusinessLogic.Tests\obj\Debug\SovosCodingExercise.BusinessLogic.Tests.pdb

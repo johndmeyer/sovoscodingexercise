@@ -33,5 +33,10 @@ namespace SovosCodingExercise.BusinessLogic
         {
             return _ingredientData.RetrieveIngredients();
         }
+
+        public IngredientDataModel CreateIngredient(string ingredientName, string ingredientDescription)
+        {
+            return _ingredientData.CreateIngredient(ingredientName, ingredientDescription);
+        }
     }
 }

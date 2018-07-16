@@ -5,3 +5,10 @@ C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataM
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.csprojResolveAssemblyReference.cache
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.dll
 C:\Users\jmeyer\Documents\Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\bin\Debug\SovosCodingExercise.DataModels.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\bin\Debug\SovosCodingExercise.DataModels.pdb
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\bin\Debug\Dapper.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\bin\Debug\Dapper.xml
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.csprojResolveAssemblyReference.cache
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.dll
+C:\_Projects\sovoscodingexercise\SovosCodingExercise.DataModels\obj\Debug\SovosCodingExercise.DataModels.pdb

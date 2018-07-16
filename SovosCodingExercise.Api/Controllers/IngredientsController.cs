@@ -69,7 +69,7 @@ namespace SovosCodingExercise.Api.Controllers
         //{
         //}
 
-        public BaseDataModel Put(string ingredientName id, [FromBody]string value)
+        public IngredientDataModel Put(string ingredientName, string ingredientDescription)
         {
             // Error Handling
             try
@@ -77,15 +77,17 @@ namespace SovosCodingExercise.Api.Controllers
                 // Validate Inputs
 
                 // Call Business Logic to get data
-                return _ingredientLogic.RetrieveIngredients();
+                //return _ingredientLogic.RetrieveIngredients();
             }
-            catch
+            catch (Exception exception)
             {
                 // Log Error
 
                 // Return Error
-                return new List<IngredientDataModel> { new IngredientDataModel { ErrorMessage = "Error occured" } };
+                //return new List<IngredientDataModel> { new IngredientDataModel { ErrorMessage = "Error occured" } };
             }
+
+            return new IngredientDataModel();
         }
 
         //// DELETE api/values/5
