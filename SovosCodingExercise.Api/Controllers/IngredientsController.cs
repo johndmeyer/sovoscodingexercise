@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using SovosCodingExercise.BusinessLogic;
 using SovosCodingExercise.DataModels;
@@ -14,7 +11,7 @@ namespace SovosCodingExercise.Api.Controllers
     /// </summary>
     public class IngredientsController : ApiController
     {
-        private readonly IngredientLogic _ingredientLogic = null;
+        private readonly IIngredientLogic _ingredientLogic = null;
 
         /// <summary>
         /// Comments here
@@ -34,6 +31,28 @@ namespace SovosCodingExercise.Api.Controllers
         }
 
         // TODO: Authentication
+        // TODO: Error Logging
+
+        public IngredientDataModel Put(string ingredientName, string ingredientDescription)
+        {
+            // Error Handling
+            try
+            {
+                // Validate Inputs
+                if (string.IsNullOrEmpty(ingredientName)) { return new IngredientDataModel { ErrorMessage = "IngredientName is a required field." }; }
+                if (string.IsNullOrEmpty(ingredientDescription)) { return new IngredientDataModel { ErrorMessage = "IngredientDescription is a required field." }; }
+
+                // Call Business Logic to get data
+                return _ingredientLogic.CreateIngredient(ingredientName, ingredientDescription);
+            }
+            catch (Exception exception)
+            {
+                // Log Error
+
+                // Return Error
+                return new IngredientDataModel { ErrorMessage = "Error occured" };
+            }
+        }
 
         /// <summary>
         /// Returns a list of all available ingredients (for dropdown)
@@ -49,7 +68,7 @@ namespace SovosCodingExercise.Api.Controllers
                 // Call Business Logic to get data
                 return _ingredientLogic.RetrieveIngredients();
             }
-            catch
+            catch (Exception exception)
             {
                 // Log Error
 
@@ -58,41 +77,69 @@ namespace SovosCodingExercise.Api.Controllers
             }          
         }
 
-        //// GET api/values/5
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-        //// POST api/values
-        //public void Post([FromBody]string value)
-        //{
-        //}
-
-        public IngredientDataModel Put(string ingredientName, string ingredientDescription)
+        // get api/values/5
+        public IngredientDataModel Get(int ingredientId)
         {
             // Error Handling
             try
             {
                 // Validate Inputs
+                if (ingredientId == null || ingredientId == 0) { return new IngredientDataModel { ErrorMessage = "IngredientId is a required field." }; }
 
                 // Call Business Logic to get data
-                //return _ingredientLogic.RetrieveIngredients();
+                return _ingredientLogic.RetrieveIngredient(ingredientId);
             }
             catch (Exception exception)
             {
                 // Log Error
 
                 // Return Error
-                //return new List<IngredientDataModel> { new IngredientDataModel { ErrorMessage = "Error occured" } };
+                return new IngredientDataModel { ErrorMessage = "Error occured" };
             }
-
-            return new IngredientDataModel();
         }
 
-        //// DELETE api/values/5
-        //public void Delete(int id)
-        //{
-        //}
+        // POST api/values
+        public IngredientDataModel Post(int ingredientId, string ingredientName, string ingredientDescription)
+        {
+            try
+            {
+                // Validate Inputs
+                if (ingredientId == null || ingredientId == 0) { return new IngredientDataModel { ErrorMessage = "IngredientId is a required field." }; }                
+                if (string.IsNullOrEmpty(ingredientName)) { return new IngredientDataModel { ErrorMessage = "IngredientName is a required field." }; }
+                if (string.IsNullOrEmpty(ingredientDescription)) { return new IngredientDataModel { ErrorMessage = "IngredientDescription is a required field." }; }
+
+                // Call Business Logic to get data
+                return _ingredientLogic.UpdateIngredient(ingredientId, ingredientName, ingredientDescription);
+            }
+            catch (Exception exception)
+            {
+                // Log Error
+
+                // Return Error
+                return new IngredientDataModel { ErrorMessage = "Error occured" };
+            }
+        }
+
+        // DELETE api/values/5
+        public BaseDataModel Delete(int ingredientId)
+        {
+            try
+            {
+                // Validate Inputs
+                if (ingredientId == null || ingredientId == 0) { return new IngredientDataModel { ErrorMessage = "IngredientId is a required field." }; }
+
+                // Call Business Logic to get data
+                return _ingredientLogic.DeleteIngredient(ingredientId) == true
+                    ? new BaseDataModel()
+                    : new BaseDataModel { ErrorMessage = "Error occured" };
+            }
+            catch (Exception exception)
+            {
+                // Log Error
+
+                // Return Error
+                return new BaseDataModel { ErrorMessage = "Error occured" };
+            }
+        }
     }
 }

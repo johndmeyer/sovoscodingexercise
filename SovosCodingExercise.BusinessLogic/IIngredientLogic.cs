@@ -1,10 +1,10 @@
-﻿using System;
+﻿using SovosCodingExercise.DataModels;
 using System.Collections.Generic;
-using SovosCodingExercise.DataModels;
 
-namespace SovosCodingExercise.DataAccess
+
+namespace SovosCodingExercise.BusinessLogic
 {
-    public interface IIngredientData
+    public interface IIngredientLogic
     {
         /// <summary>
         /// Writes a new ingredient to the database
